@@ -15,5 +15,5 @@ app.post('/message', async (req, res) => {
   }
 })
 
-consumerQueue()
+// consumerQueue()
 app.listen(3001, () => console.log('listening on port 3001'))
